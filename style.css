@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #c9e7e8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    max-width: 900px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+i {
+    color: #3c1f8c;
+    font-size: 25px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+}
+
+.vertical-line {
+    border-left: 1px solid rgb(83, 83, 83);
+    height: 220px;
+    margin: 0 25px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3 {
+    color: #3c1f8c;
+    padding: 5px 0px 3px 0;
+}
+
+p {
+    color: rgb(83, 83, 83);
+    font-size: 13px;
+    padding: 0px 0 5px 0;
+}
+
+input {
+    font-size: 13px;
+    padding: 8px;
+    font-weight: 500;
+    background-color: #f0f1f8;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.message {
+    height: 70px;
+    line-height: 70px;
+    padding-bottom: 50px;
+}
+
+button {
+    background-color: #3c1f8c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 85px;
+}
+
+button:hover {
+    background-color: #4b29ac;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #3c1f8c;
+}
+
+::selection {
+    background-color: #3c1f8c;
+    color: white;
+}
+  
